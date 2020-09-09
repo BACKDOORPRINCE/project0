@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+ }
+
+ a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a.button:hover {
+    text-decoration: none;
+}
+
+.top-navigation {
+    float: right;
+    margin-right: 25px;
+}
+
+.top-navigation li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    padding: 5px 10px 0 0;
+    vertical-align: bottom;
+    margin: 5px 5px 0 0;
+}
+.heading {
+    color: #D93025;
+    margin: 30px 10px 30px 0px;
+    border-bottom: 2px solid #F1F1F1;
+    padding-left: 45px;
+    padding-bottom: 25px;
+}
+
+.heading h3 {
+    font-weight: 300;
+    font-size: 20px;
+}
+.heading h5 {
+    color: black;
+    margin: 30px 30px 1px 0px;
+    border-bottom: 2px solid #F1F1F1;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.input-fields {
+    padding-left: 45px;
+    margin-right: 10%;
+}
+
+.input-fields h3 {
+    font-weight: 300;
+    color: #333;
+    padding-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input[type="text"] {
+    position: relative;
+    width: 50%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #F1F1F1;
+}
+
+.form-group label {
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: left;
+}
+
+.button {
+    background-color:#4988F0;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    border-radius: 2px;
+}
